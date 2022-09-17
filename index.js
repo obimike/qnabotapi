@@ -12,7 +12,7 @@ app.get("/", async (req, res) => {
     url: "https://directline.botframework.com/v3/directline/tokens/generate",
     headers: {
       Authorization:
-        "Bearer fgTWhHSip1o.FBEQckO6aCRZFLfxEZiP4lZSs8Ui5y5BReOcTb6KnDE",
+        "Bearer 1fyJwo4mwY0.eNjAa_2YQ2kKUb63j1yOlxgvIBRY39gBpwADNqf-pKA",
       "Content-Type": "application/json",
     },
     data: {},
@@ -28,5 +28,5 @@ app.get("/", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
+  console.log(`App listening on port ${port}`);
 });

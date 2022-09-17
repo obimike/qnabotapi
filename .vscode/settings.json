@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/ec25ecfe-5372-4972-b7c2-13f5ff9e1388/microsoft.web/sites/subscriptions/ec25ecfe-5372-4972-b7c2-13f5ff9e1388/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/botapiv1",
+  "appService.deploySubpath": "."
+}
