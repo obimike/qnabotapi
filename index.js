@@ -12,7 +12,7 @@ app.get("/", async (req, res) => {
     url: "https://directline.botframework.com/v3/directline/tokens/generate",
     headers: {
       Authorization:
-        "Bearer 1fyJwo4mwY0.eNjAa_2YQ2kKUb63j1yOlxgvIBRY39gBpwADNqf-pKA",
+        "Bearer cV9P-rfL-1k.3RAypY5YLqiDwY3x6Wu4Fxbd07oS7z7qeIUVGpcKW7I",
       "Content-Type": "application/json",
     },
     data: {},
