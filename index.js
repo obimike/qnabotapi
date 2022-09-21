@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const axios = require("axios");
 const cors = require("cors");
-app.use(cors());
 
-const port = process.env.PORT || 444;
+app.use(cors());
+const port = process.env.PORT || 5000;
 
 app.get("/", async (req, res) => {
   const options = {
@@ -12,7 +12,7 @@ app.get("/", async (req, res) => {
     url: "https://directline.botframework.com/v3/directline/tokens/generate",
     headers: {
       Authorization:
-        "Bearer cV9P-rfL-1k.3RAypY5YLqiDwY3x6Wu4Fxbd07oS7z7qeIUVGpcKW7I",
+        "Bearer Dohr_hJk5xs.vd0PcZNj7Jew1_GqazkLlbZcbOpWvTvQsfGw4b-t3ec",
       "Content-Type": "application/json",
     },
     data: {},
